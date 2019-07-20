@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="scroll">
+	<view class="scroll-wrap">
+		<view class="scroll-data" wx:for="{{len}}" >
+			<view class="scroll-num" animation="{{animation[index]}}" >
+				<text class="unit-num">0</text>
+				<text class="unit-num">1</text>
+				<text class="unit-num">2</text>
+				<text class="unit-num">3</text>
+				<text class="unit-num">4</text>
+				<text class="unit-num">5</text>
+				<text class="unit-num">6</text>
+				<text class="unit-num">7</text>
+				<text class="unit-num">8</text>
+				<text class="unit-num">9</text>
+			</view>
+			<!-- 这里效果要求有千分号 如果不需要可以删除  -->
+			<view class="commachar" wx:if="{{((len-(index+1))%3===0) && index < len-1}}">,
+			</view>
+		</view>
+	</view>
+</view>
+

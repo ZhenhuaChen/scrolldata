@@ -1,0 +1,34 @@
+/**index.wxss**/
+.scroll{
+	text-align: center;
+}
+.scroll-wrap{
+	background: #000000;
+	display: inline-block;
+}
+.scroll-data{
+    line-height: 42rpx;
+    height: 42rpx;
+    font-size: 38rpx;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+.scroll-num{
+    width:26rpx;
+    display:inline-block;
+    position: relative;
+    top:0rpx;
+}
+.unit-num{
+    height: 42rpx;
+    overflow: hidden;
+    display: block;
+}
+.commachar{
+    width:26rpx;
+    display:inline-block;
+    position: relative;
+    vertical-align: top;
+}
